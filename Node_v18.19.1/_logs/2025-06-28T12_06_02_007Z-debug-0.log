@@ -1,0 +1,645 @@
+0 verbose cli D:\nodejs\node.exe D:\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:D:\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\桌面\exp_wxt\.npmrc
+5 silly config load:file:C:\Users\Tom.l\.npmrc
+6 silly config load:file:D:\桌面\exp_wxt\Node_v18.19.1\etc\npmrc
+7 verbose title npm install css-select@5.1.0 linkedom@0.15.1
+8 verbose argv "install" "css-select@5.1.0" "linkedom@0.15.1"
+9 verbose logfile logs-max:10 dir:D:\桌面\exp_wxt\Node_v18.19.1\_logs\2025-06-28T12_06_02_007Z-
+10 verbose logfile D:\桌面\exp_wxt\Node_v18.19.1\_logs\2025-06-28T12_06_02_007Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest css-select@5.1.0
+15 silly packumentCache full:https://registry.npmmirror.com/css-select cache-miss
+16 http cache https://registry.npmmirror.com/css-select 78ms (cache hit)
+17 silly packumentCache full:https://registry.npmmirror.com/css-select set size:88038 disposed:false
+18 silly fetch manifest linkedom@0.15.1
+19 silly packumentCache full:https://registry.npmmirror.com/linkedom cache-miss
+20 http cache https://registry.npmmirror.com/linkedom 6ms (cache hit)
+21 silly packumentCache full:https://registry.npmmirror.com/linkedom set size:857503 disposed:false
+22 silly placeDep ROOT css-select@5.1.0 REPLACE for:  want: 5.1.0
+23 silly placeDep ROOT linkedom@0.15.1 REPLACE for:  want: 0.15.1
+24 silly fetch manifest htmlparser2@^8.0.1
+25 silly packumentCache full:https://registry.npmmirror.com/htmlparser2 cache-miss
+26 http cache https://registry.npmmirror.com/htmlparser2 4ms (cache hit)
+27 silly packumentCache full:https://registry.npmmirror.com/htmlparser2 set size:147906 disposed:false
+28 silly placeDep ROOT htmlparser2@8.0.2 OK for: linkedom@0.15.1 want: ^8.0.1
+29 silly fetch manifest linkedom@^0.18.10
+30 silly packumentCache full:https://registry.npmmirror.com/linkedom cache-hit
+31 silly placeDep node_modules/wxt linkedom@0.18.11 OK for: wxt@0.20.7 want: ^0.18.10
+32 silly fetch manifest htmlparser2@^10.0.0
+33 silly packumentCache full:https://registry.npmmirror.com/htmlparser2 cache-hit
+34 silly placeDep node_modules/wxt htmlparser2@10.0.0 OK for: linkedom@0.18.11 want: ^10.0.0
+35 silly fetch manifest entities@^6.0.0
+36 silly packumentCache full:https://registry.npmmirror.com/entities cache-miss
+37 http cache https://registry.npmmirror.com/entities 4ms (cache hit)
+38 silly packumentCache full:https://registry.npmmirror.com/entities set size:83307 disposed:false
+39 silly placeDep node_modules/wxt entities@6.0.1 OK for: htmlparser2@10.0.0 want: ^6.0.0
+40 silly reify mark retired [ 'D:\\桌面\\exp_wxt\\node_modules\\css-select' ]
+41 silly reify mark retired [ 'D:\\桌面\\exp_wxt\\node_modules\\htmlparser2' ]
+42 silly reify mark retired [ 'D:\\桌面\\exp_wxt\\node_modules\\linkedom' ]
+43 silly reify moves {
+43 silly reify   'D:\\桌面\\exp_wxt\\node_modules\\css-select': 'D:\\桌面\\exp_wxt\\node_modules\\.css-select-DTXCnQn8',
+43 silly reify   'D:\\桌面\\exp_wxt\\node_modules\\htmlparser2': 'D:\\桌面\\exp_wxt\\node_modules\\.htmlparser2-qbt1Y7Q2',
+43 silly reify   'D:\\桌面\\exp_wxt\\node_modules\\linkedom': 'D:\\桌面\\exp_wxt\\node_modules\\.linkedom-VfwB35na'
+43 silly reify }
+44 silly audit bulk request {
+44 silly audit   '@1natsu/wait-element': [ '4.1.2' ],
+44 silly audit   '@aklinker1/rollup-plugin-visualizer': [ '5.12.0' ],
+44 silly audit   'define-lazy-prop': [ '2.0.0', '3.0.0' ],
+44 silly audit   'is-docker': [ '2.2.1', '3.0.0' ],
+44 silly audit   'is-wsl': [ '2.2.0', '3.1.0' ],
+44 silly audit   open: [ '8.4.2', '10.1.2', '9.1.0' ],
+44 silly audit   '@babel/code-frame': [ '7.27.1' ],
+44 silly audit   'js-tokens': [ '4.0.0', '9.0.1' ],
+44 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+44 silly audit   '@babel/helper-validator-identifier': [ '7.27.1' ],
+44 silly audit   '@babel/parser': [ '7.27.7' ],
+44 silly audit   '@babel/runtime': [ '7.27.0' ],
+44 silly audit   '@babel/types': [ '7.27.7' ],
+44 silly audit   '@devicefarmer/adbkit': [ '3.3.8' ],
+44 silly audit   '@devicefarmer/adbkit-logcat': [ '2.1.3' ],
+44 silly audit   '@devicefarmer/adbkit-monkey': [ '1.2.1' ],
+44 silly audit   debug: [ '4.3.7', '4.4.1', '2.6.9' ],
+44 silly audit   '@esbuild/aix-ppc64': [ '0.25.5' ],
+44 silly audit   '@esbuild/android-arm': [ '0.25.5' ],
+44 silly audit   '@esbuild/android-arm64': [ '0.25.5' ],
+44 silly audit   '@esbuild/android-x64': [ '0.25.5' ],
+44 silly audit   '@esbuild/darwin-arm64': [ '0.25.5' ],
+44 silly audit   '@esbuild/darwin-x64': [ '0.25.5' ],
+44 silly audit   '@esbuild/freebsd-arm64': [ '0.25.5' ],
+44 silly audit   '@esbuild/freebsd-x64': [ '0.25.5' ],
+44 silly audit   '@esbuild/linux-arm': [ '0.25.5' ],
+44 silly audit   '@esbuild/linux-arm64': [ '0.25.5' ],
+44 silly audit   '@esbuild/linux-ia32': [ '0.25.5' ],
+44 silly audit   '@esbuild/linux-loong64': [ '0.25.5' ],
+44 silly audit   '@esbuild/linux-mips64el': [ '0.25.5' ],
+44 silly audit   '@esbuild/linux-ppc64': [ '0.25.5' ],
+44 silly audit   '@esbuild/linux-riscv64': [ '0.25.5' ],
+44 silly audit   '@esbuild/linux-s390x': [ '0.25.5' ],
+44 silly audit   '@esbuild/linux-x64': [ '0.25.5' ],
+44 silly audit   '@esbuild/netbsd-arm64': [ '0.25.5' ],
+44 silly audit   '@esbuild/netbsd-x64': [ '0.25.5' ],
+44 silly audit   '@esbuild/openbsd-arm64': [ '0.25.5' ],
+44 silly audit   '@esbuild/openbsd-x64': [ '0.25.5' ],
+44 silly audit   '@esbuild/sunos-x64': [ '0.25.5' ],
+44 silly audit   '@esbuild/win32-arm64': [ '0.25.5' ],
+44 silly audit   '@esbuild/win32-ia32': [ '0.25.5' ],
+44 silly audit   '@esbuild/win32-x64': [ '0.25.5' ],
+44 silly audit   '@isaacs/balanced-match': [ '4.0.1' ],
+44 silly audit   '@isaacs/brace-expansion': [ '5.0.0' ],
+44 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.0' ],
+44 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+44 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+44 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+44 silly audit   '@pnpm/config.env-replace': [ '1.1.0' ],
+44 silly audit   '@pnpm/network.ca-file': [ '1.0.2' ],
+44 silly audit   'graceful-fs': [ '4.2.10', '4.2.11' ],
+44 silly audit   '@pnpm/npm-conf': [ '2.3.1' ],
+44 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.44.1' ],
+44 silly audit   '@rollup/rollup-android-arm64': [ '4.44.1' ],
+44 silly audit   '@rollup/rollup-darwin-arm64': [ '4.44.1' ],
+44 silly audit   '@rollup/rollup-darwin-x64': [ '4.44.1' ],
+44 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.44.1' ],
+44 silly audit   '@rollup/rollup-freebsd-x64': [ '4.44.1' ],
+44 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.44.1' ],
+44 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.44.1' ],
+44 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.44.1' ],
+44 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.44.1' ],
+44 silly audit   '@rollup/rollup-linux-loongarch64-gnu': [ '4.44.1' ],
+44 silly audit   '@rollup/rollup-linux-powerpc64le-gnu': [ '4.44.1' ],
+44 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.44.1' ],
+44 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.44.1' ],
+44 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.44.1' ],
+44 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.44.1' ],
+44 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.44.1' ],
+44 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.44.1' ],
+44 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.44.1' ],
+44 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.44.1' ],
+44 silly audit   '@types/estree': [ '1.0.8' ],
+44 silly audit   '@types/filesystem': [ '0.0.36' ],
+44 silly audit   '@types/filewriter': [ '0.0.33' ],
+44 silly audit   '@types/har-format': [ '1.2.16' ],
+44 silly audit   '@types/minimatch': [ '3.0.5' ],
+44 silly audit   '@types/node': [ '24.0.7' ],
+44 silly audit   '@types/yauzl': [ '2.10.3' ],
+44 silly audit   '@webext-core/fake-browser': [ '1.3.2' ],
+44 silly audit   '@webext-core/isolated-element': [ '1.1.2' ],
+44 silly audit   '@webext-core/match-patterns': [ '1.0.3' ],
+44 silly audit   '@wxt-dev/browser': [ '0.0.326' ],
+44 silly audit   '@wxt-dev/storage': [ '1.1.1' ],
+44 silly audit   acorn: [ '8.15.0' ],
+44 silly audit   'adm-zip': [ '0.5.16' ],
+44 silly audit   'ansi-align': [ '3.0.1' ],
+44 silly audit   'ansi-regex': [ '5.0.1', '6.1.0' ],
+44 silly audit   'emoji-regex': [ '8.0.0', '10.4.0' ],
+44 silly audit   'is-fullwidth-code-point': [ '3.0.0', '4.0.0', '5.0.0' ],
+44 silly audit   'string-width': [ '4.2.3', '7.2.0' ],
+44 silly audit   'strip-ansi': [ '6.0.1', '7.1.0' ],
+44 silly audit   'ansi-escapes': [ '7.0.0' ],
+44 silly audit   'ansi-styles': [ '6.2.1', '4.3.0' ],
+44 silly audit   'any-promise': [ '1.3.0' ],
+44 silly audit   'array-differ': [ '4.0.0' ],
+44 silly audit   'array-union': [ '3.0.1' ],
+44 silly audit   async: [ '3.2.6' ],
+44 silly audit   'async-mutex': [ '0.5.0' ],
+44 silly audit   'atomic-sleep': [ '1.0.0' ],
+44 silly audit   atomically: [ '2.0.3' ],
+44 silly audit   'balanced-match': [ '1.0.2' ],
+44 silly audit   'base64-js': [ '1.5.1' ],
+44 silly audit   'big-integer': [ '1.6.52' ],
+44 silly audit   bl: [ '5.1.0' ],
+44 silly audit   'readable-stream': [ '3.6.2', '2.3.8' ],
+44 silly audit   bluebird: [ '3.7.2' ],
+44 silly audit   boolbase: [ '1.0.0' ],
+44 silly audit   boxen: [ '8.0.1' ],
+44 silly audit   'type-fest': [ '4.41.0', '3.13.1' ],
+44 silly audit   'bplist-parser': [ '0.2.0' ],
+44 silly audit   'brace-expansion': [ '1.1.12' ],
+44 silly audit   braces: [ '3.0.3' ],
+44 silly audit   buffer: [ '6.0.3' ],
+44 silly audit   'buffer-crc32': [ '0.2.13' ],
+44 silly audit   'buffer-from': [ '1.1.2' ],
+44 silly audit   'bundle-name': [ '4.1.0', '3.0.0' ],
+44 silly audit   c12: [ '3.0.4' ],
+44 silly audit   cac: [ '6.7.14' ],
+44 silly audit   camelcase: [ '8.0.0' ],
+44 silly audit   chalk: [ '5.4.1', '4.1.2' ],
+44 silly audit   chokidar: [ '4.0.3' ],
+44 silly audit   'chrome-launcher': [ '1.1.2' ],
+44 silly audit   'escape-string-regexp': [ '4.0.0', '5.0.0' ],
+44 silly audit   'ci-info': [ '4.2.0' ],
+44 silly audit   citty: [ '0.1.6' ],
+44 silly audit   'cli-boxes': [ '3.0.0' ],
+44 silly audit   'cli-cursor': [ '5.0.0', '4.0.0' ],
+44 silly audit   'cli-highlight': [ '2.1.11' ],
+44 silly audit   cliui: [ '7.0.4', '8.0.1' ],
+44 silly audit   'wrap-ansi': [ '7.0.0', '9.0.0' ],
+44 silly audit   yargs: [ '16.2.0', '17.7.2' ],
+44 silly audit   'yargs-parser': [ '20.2.9', '21.1.1' ],
+44 silly audit   'cli-spinners': [ '2.9.2' ],
+44 silly audit   'cli-truncate': [ '4.0.0' ],
+44 silly audit   clone: [ '1.0.4' ],
+44 silly audit   'color-convert': [ '2.0.1' ],
+44 silly audit   'color-name': [ '1.1.4' ],
+44 silly audit   colorette: [ '2.0.20' ],
+44 silly audit   commander: [ '9.5.0', '2.9.0' ],
+44 silly audit   'concat-map': [ '0.0.1' ],
+44 silly audit   'concat-stream': [ '1.6.2' ],
+44 silly audit   confbox: [ '0.2.2', '0.1.8' ],
+44 silly audit   'config-chain': [ '1.1.13' ],
+44 silly audit   ini: [ '1.3.8', '4.1.1', '4.1.3' ],
+44 silly audit   configstore: [ '7.0.0' ],
+44 silly audit   consola: [ '3.4.2' ],
+44 silly audit   'core-util-is': [ '1.0.3' ],
+44 silly audit   'cross-spawn': [ '7.0.6' ],
+44 silly audit   isexe: [ '2.0.0', '1.1.2' ],
+44 silly audit   which: [ '2.0.2', '1.2.4' ],
+44 silly audit   'css-what': [ '6.2.1' ],
+44 silly audit   cssom: [ '0.5.0' ],
+44 silly audit   debounce: [ '1.2.1' ],
+44 silly audit   'deep-extend': [ '0.6.0' ],
+44 silly audit   'default-browser': [ '5.2.1', '4.0.0' ],
+44 silly audit   'default-browser-id': [ '5.0.0', '3.0.0' ],
+44 silly audit   defaults: [ '1.0.4' ],
+44 silly audit   defu: [ '6.1.4' ],
+44 silly audit   dequal: [ '2.0.3' ],
+44 silly audit   destr: [ '2.0.5' ],
+44 silly audit   'dom-serializer': [ '2.0.0' ],
+44 silly audit   domelementtype: [ '2.3.0' ],
+44 silly audit   domhandler: [ '5.0.3' ],
+44 silly audit   domutils: [ '3.2.2' ],
+44 silly audit   'dot-prop': [ '9.0.0' ],
+44 silly audit   dotenv: [ '16.6.1' ],
+44 silly audit   'dotenv-expand': [ '12.0.2' ],
+44 silly audit   'end-of-stream': [ '1.4.5' ],
+44 silly audit   entities: [ '4.5.0', '6.0.1' ],
+44 silly audit   environment: [ '1.1.0' ],
+44 silly audit   'error-ex': [ '1.3.2' ],
+44 silly audit   'es-module-lexer': [ '1.7.0' ],
+44 silly audit   'es6-error': [ '4.1.1' ],
+44 silly audit   esbuild: [ '0.25.5' ],
+44 silly audit   escalade: [ '3.2.0' ],
+44 silly audit   'escape-goat': [ '4.0.0' ],
+44 silly audit   'estree-walker': [ '3.0.3' ],
+44 silly audit   eventemitter3: [ '5.0.1' ],
+44 silly audit   execa: [ '7.2.0', '5.1.1' ],
+44 silly audit   'get-stream': [ '6.0.1', '5.2.0' ],
+44 silly audit   onetime: [ '6.0.0', '7.0.0', '5.1.2' ],
+44 silly audit   'signal-exit': [ '3.0.7', '4.1.0' ],
+44 silly audit   exsolve: [ '1.0.7' ],
+44 silly audit   'extract-zip': [ '2.0.1' ],
+44 silly audit   'fast-glob': [ '3.3.3' ],
+44 silly audit   'fast-redact': [ '3.5.0' ],
+44 silly audit   fastq: [ '1.19.1' ],
+44 silly audit   'fd-slicer': [ '1.1.0' ],
+44 silly audit   filesize: [ '10.1.6' ],
+44 silly audit   'fill-range': [ '7.1.1' ],
+44 silly audit   'firefox-profile': [ '4.7.0' ],
+44 silly audit   'formdata-node': [ '6.0.3' ],
+44 silly audit   'fs-extra': [ '11.3.0' ],
+44 silly audit   fsevents: [ '2.3.3' ],
+44 silly audit   'fx-runner': [ '1.4.0' ],
+44 silly audit   'get-caller-file': [ '2.0.5' ],
+44 silly audit   'get-east-asian-width': [ '1.3.0' ],
+44 silly audit   'get-port-please': [ '3.1.2' ],
+44 silly audit   giget: [ '2.0.0' ],
+44 silly audit   'glob-parent': [ '5.1.2' ],
+44 silly audit   'glob-to-regexp': [ '0.4.1' ],
+44 silly audit   'global-directory': [ '4.0.1' ],
+44 silly audit   'graceful-readlink': [ '1.0.1' ],
+44 silly audit   growly: [ '1.3.0' ],
+44 silly audit   'has-flag': [ '4.0.0' ],
+44 silly audit   'highlight.js': [ '10.7.3' ],
+44 silly audit   hookable: [ '5.5.3' ],
+44 silly audit   'html-escaper': [ '3.0.3' ],
+44 silly audit   'human-signals': [ '4.3.1', '2.1.0' ],
+44 silly audit   ieee754: [ '1.2.1' ],
+44 silly audit   immediate: [ '3.0.6' ],
+44 silly audit   'import-meta-resolve': [ '4.1.0' ],
+44 silly audit   inherits: [ '2.0.4' ],
+44 silly audit   'is-absolute': [ '0.1.7' ],
+44 silly audit   'is-arrayish': [ '0.2.1' ],
+44 silly audit   'is-extglob': [ '2.1.1' ],
+44 silly audit   'is-glob': [ '4.0.3' ],
+44 silly audit   'is-in-ci': [ '1.0.0' ],
+44 silly audit   'is-inside-container': [ '1.0.0' ],
+44 silly audit   'is-installed-globally': [ '1.0.0' ],
+44 silly audit   'is-interactive': [ '2.0.0' ],
+44 silly audit   'is-npm': [ '6.0.0' ],
+44 silly audit   'is-number': [ '7.0.0' ],
+44 silly audit   'is-path-inside': [ '4.0.0' ],
+44 silly audit   'is-plain-object': [ '2.0.4' ],
+44 silly audit   'is-potential-custom-element-name': [ '1.0.1' ],
+44 silly audit   'is-primitive': [ '3.0.1' ],
+44 silly audit   'is-relative': [ '0.1.3' ],
+44 silly audit   'is-stream': [ '3.0.0', '2.0.1' ],
+44 silly audit   'is-unicode-supported': [ '2.1.0', '1.3.0' ],
+44 silly audit   isarray: [ '1.0.0' ],
+44 silly audit   isobject: [ '3.0.1' ],
+44 silly audit   jiti: [ '2.4.2' ],
+44 silly audit   'json-parse-even-better-errors': [ '3.0.2' ],
+44 silly audit   json5: [ '2.2.3' ],
+44 silly audit   jsonfile: [ '6.1.0' ],
+44 silly audit   jszip: [ '3.10.1' ],
+44 silly audit   kleur: [ '3.0.3' ],
+44 silly audit   ky: [ '1.8.1' ],
+44 silly audit   'latest-version': [ '9.0.0' ],
+44 silly audit   lie: [ '3.3.0' ],
+44 silly audit   'lighthouse-logger': [ '2.0.1' ],
+44 silly audit   ms: [ '2.0.0', '2.1.3' ],
+44 silly audit   'lines-and-columns': [ '2.0.4' ],
+44 silly audit   listr2: [ '8.3.3' ],
+44 silly audit   'local-pkg': [ '1.1.1' ],
+44 silly audit   'lodash.camelcase': [ '4.3.0' ],
+44 silly audit   'lodash.kebabcase': [ '4.1.1' ],
+44 silly audit   'lodash.merge': [ '4.6.2' ],
+44 silly audit   'lodash.snakecase': [ '4.1.1' ],
+44 silly audit   'log-symbols': [ '6.0.0', '5.1.0' ],
+44 silly audit   'log-update': [ '6.1.0' ],
+44 silly audit   'slice-ansi': [ '7.1.0', '5.0.0' ],
+44 silly audit   'magic-string': [ '0.30.17' ],
+44 silly audit   magicast: [ '0.3.5' ],
+44 silly audit   'make-error': [ '1.3.6' ],
+44 silly audit   'many-keys-map': [ '2.0.1' ],
+44 silly audit   marky: [ '1.3.0' ],
+44 silly audit   'merge-stream': [ '2.0.0' ],
+44 silly audit   merge2: [ '1.4.1' ],
+44 silly audit   micromatch: [ '4.0.8' ],
+44 silly audit   'mimic-fn': [ '4.0.0', '2.1.0' ],
+44 silly audit   'mimic-function': [ '5.0.1' ],
+44 silly audit   minimatch: [ '10.0.3', '3.1.2' ],
+44 silly audit   minimist: [ '1.2.8' ],
+44 silly audit   mlly: [ '1.7.4' ],
+44 silly audit   'pkg-types': [ '1.3.1', '2.1.1' ],
+44 silly audit   multimatch: [ '6.0.0' ],
+44 silly audit   mz: [ '2.7.0' ],
+44 silly audit   'nano-spawn': [ '0.2.1' ],
+44 silly audit   nanoid: [ '3.3.11' ],
+44 silly audit   'node-fetch-native': [ '1.6.6' ],
+44 silly audit   'node-forge': [ '1.3.1' ],
+44 silly audit   'node-notifier': [ '10.0.1' ],
+44 silly audit   'normalize-path': [ '3.0.0' ],
+44 silly audit   'npm-run-path': [ '5.3.0', '4.0.1' ],
+44 silly audit   'path-key': [ '4.0.0', '3.1.1' ],
+44 silly audit   'nth-check': [ '2.1.1' ],
+44 silly audit   nypm: [ '0.6.0' ],
+44 silly audit   'object-assign': [ '4.1.1' ],
+44 silly audit   ofetch: [ '1.4.1' ],
+44 silly audit   ohash: [ '2.0.11' ],
+44 silly audit   'on-exit-leak-free': [ '2.1.2' ],
+44 silly audit   once: [ '1.4.0' ],
+44 silly audit   ora: [ '8.2.0', '6.3.1' ],
+44 silly audit   'os-shim': [ '0.1.3' ],
+44 silly audit   'package-json': [ '10.0.1' ],
+44 silly audit   pako: [ '1.0.11' ],
+44 silly audit   'parse-json': [ '7.1.1' ],
+44 silly audit   parse5: [ '5.1.1', '6.0.1' ],
+44 silly audit   'parse5-htmlparser2-tree-adapter': [ '6.0.1' ],
+44 silly audit   pathe: [ '2.0.3' ],
+44 silly audit   pend: [ '1.2.0' ],
+44 silly audit   'perfect-debounce': [ '1.0.0' ],
+44 silly audit   picocolors: [ '1.1.1' ],
+44 silly audit   picomatch: [ '2.3.1', '4.0.2' ],
+44 silly audit   pino: [ '9.6.0' ],
+44 silly audit   'pino-abstract-transport': [ '2.0.0' ],
+44 silly audit   'pino-std-serializers': [ '7.0.0' ],
+44 silly audit   postcss: [ '8.5.6' ],
+44 silly audit   'process-nextick-args': [ '2.0.1' ],
+44 silly audit   'process-warning': [ '4.0.1' ],
+44 silly audit   'promise-toolbox': [ '0.21.0' ],
+44 silly audit   prompts: [ '2.4.2' ],
+44 silly audit   'proto-list': [ '1.2.4' ],
+44 silly audit   'publish-browser-extension': [ '3.0.0' ],
+44 silly audit   'restore-cursor': [ '4.0.0', '5.1.0' ],
+44 silly audit   'run-applescript': [ '5.0.0', '7.0.0' ],
+44 silly audit   'stdin-discarder': [ '0.1.0', '0.2.2' ],
+44 silly audit   'strip-final-newline': [ '2.0.0', '3.0.0' ],
+44 silly audit   pump: [ '3.0.3' ],
+44 silly audit   pupa: [ '3.1.0' ],
+44 silly audit   quansync: [ '0.2.10' ],
+44 silly audit   'queue-microtask': [ '1.2.3' ],
+44 silly audit   'quick-format-unescaped': [ '4.0.4' ],
+44 silly audit   rc: [ '1.2.8' ],
+44 silly audit   'strip-json-comments': [ '2.0.1', '5.0.1' ],
+44 silly audit   rc9: [ '2.1.2' ],
+44 silly audit   readdirp: [ '4.1.2' ],
+44 silly audit   'real-require': [ '0.2.0' ],
+44 silly audit   'regenerator-runtime': [ '0.14.1' ],
+44 silly audit   'registry-auth-token': [ '5.1.0' ],
+44 silly audit   'registry-url': [ '6.0.1' ],
+44 silly audit   'require-directory': [ '2.1.1' ],
+44 silly audit   reusify: [ '1.1.0' ],
+44 silly audit   rfdc: [ '1.4.1' ],
+44 silly audit   rollup: [ '4.44.1' ],
+44 silly audit   'run-parallel': [ '1.2.0' ],
+44 silly audit   'safe-buffer': [ '5.1.2' ],
+44 silly audit   'safe-stable-stringify': [ '2.5.0' ],
+44 silly audit   sax: [ '1.4.1' ],
+44 silly audit   scule: [ '1.3.0' ],
+44 silly audit   semver: [ '7.7.2' ],
+44 silly audit   'set-value': [ '4.1.0' ],
+44 silly audit   setimmediate: [ '1.0.5' ],
+44 silly audit   'shebang-command': [ '2.0.0' ],
+44 silly audit   'shebang-regex': [ '3.0.0' ],
+44 silly audit   'shell-quote': [ '1.7.3' ],
+44 silly audit   shellwords: [ '0.1.1' ],
+44 silly audit   sisteransi: [ '1.0.5' ],
+44 silly audit   'sonic-boom': [ '4.2.0' ],
+44 silly audit   'source-map': [ '0.7.4', '0.6.1' ],
+44 silly audit   'source-map-js': [ '1.2.1' ],
+44 silly audit   'source-map-support': [ '0.5.21' ],
+44 silly audit   'spawn-sync': [ '1.0.15' ],
+44 silly audit   split: [ '1.0.1' ],
+44 silly audit   split2: [ '4.2.0' ],
+44 silly audit   string_decoder: [ '1.1.1' ],
+44 silly audit   'strip-bom': [ '5.0.0' ],
+44 silly audit   'strip-literal': [ '3.0.0' ],
+44 silly audit   'stubborn-fs': [ '1.2.5' ],
+44 silly audit   'supports-color': [ '7.2.0' ],
+44 silly audit   thenify: [ '3.3.1' ],
+44 silly audit   'thenify-all': [ '1.6.0' ],
+44 silly audit   'thread-stream': [ '3.1.0' ],
+44 silly audit   through: [ '2.3.8' ],
+44 silly audit   tinyexec: [ '0.3.2' ],
+44 silly audit   tinyglobby: [ '0.2.14' ],
+44 silly audit   fdir: [ '6.4.6' ],
+44 silly audit   titleize: [ '3.0.0' ],
+44 silly audit   tmp: [ '0.2.3' ],
+44 silly audit   'to-regex-range': [ '5.0.1' ],
+44 silly audit   tslib: [ '2.8.1' ],
+44 silly audit   typedarray: [ '0.0.6' ],
+44 silly audit   ufo: [ '1.6.1' ],
+44 silly audit   uhyphen: [ '0.2.0' ],
+44 silly audit   'undici-types': [ '7.8.0' ],
+44 silly audit   unimport: [ '5.0.1' ],
+44 silly audit   universalify: [ '2.0.1' ],
+44 silly audit   unplugin: [ '2.3.5' ],
+44 silly audit   'unplugin-utils': [ '0.2.4' ],
+44 silly audit   untildify: [ '4.0.0' ],
+44 silly audit   'update-notifier': [ '7.3.1' ],
+44 silly audit   'util-deprecate': [ '1.0.2' ],
+44 silly audit   uuid: [ '8.3.2' ],
+44 silly audit   vite: [ '6.3.5' ],
+44 silly audit   'vite-node': [ '3.2.4' ],
+44 silly audit   watchpack: [ '2.4.2' ],
+44 silly audit   wcwidth: [ '1.0.1' ],
+44 silly audit   'web-ext-run': [ '0.2.3' ],
+44 silly audit   'webpack-virtual-modules': [ '0.6.2' ],
+44 silly audit   when: [ '3.7.7' ],
+44 silly audit   'when-exit': [ '2.1.4' ],
+44 silly audit   'widest-line': [ '5.0.0' ],
+44 silly audit   winreg: [ '0.0.12' ],
+44 silly audit   wrappy: [ '1.0.2' ],
+44 silly audit   ws: [ '8.18.1' ],
+44 silly audit   wxt: [ '0.20.7' ],
+44 silly audit   'xdg-basedir': [ '5.1.0' ],
+44 silly audit   xml2js: [ '0.6.2' ],
+44 silly audit   xmlbuilder: [ '11.0.1' ],
+44 silly audit   y18n: [ '5.0.8' ],
+44 silly audit   yauzl: [ '2.10.0' ],
+44 silly audit   'zip-dir': [ '2.0.0' ],
+44 silly audit   zod: [ '3.25.67' ],
+44 silly audit   'css-select': [ '5.1.0' ],
+44 silly audit   linkedom: [ '0.15.1', '0.18.11' ],
+44 silly audit   htmlparser2: [ '8.0.2', '10.0.0' ]
+44 silly audit }
+45 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\fsevents
+46 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\fsevents' ]
+47 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@rollup\rollup-win32-ia32-msvc
+48 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@rollup\\rollup-win32-ia32-msvc' ]
+49 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@rollup\rollup-win32-arm64-msvc
+50 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@rollup\\rollup-win32-arm64-msvc' ]
+51 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@rollup\rollup-linux-x64-musl
+52 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@rollup\\rollup-linux-x64-musl' ]
+53 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@rollup\rollup-linux-x64-gnu
+54 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@rollup\\rollup-linux-x64-gnu' ]
+55 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@rollup\rollup-linux-s390x-gnu
+56 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@rollup\\rollup-linux-s390x-gnu' ]
+57 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@rollup\rollup-linux-riscv64-musl
+58 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@rollup\\rollup-linux-riscv64-musl' ]
+59 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@rollup\rollup-linux-riscv64-gnu
+60 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@rollup\\rollup-linux-riscv64-gnu' ]
+61 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@rollup\rollup-linux-powerpc64le-gnu
+62 silly reify mark deleted [
+62 silly reify   'D:\\桌面\\exp_wxt\\node_modules\\@rollup\\rollup-linux-powerpc64le-gnu'
+62 silly reify ]
+63 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@rollup\rollup-linux-loongarch64-gnu
+64 silly reify mark deleted [
+64 silly reify   'D:\\桌面\\exp_wxt\\node_modules\\@rollup\\rollup-linux-loongarch64-gnu'
+64 silly reify ]
+65 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@rollup\rollup-linux-arm64-musl
+66 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@rollup\\rollup-linux-arm64-musl' ]
+67 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@rollup\rollup-linux-arm64-gnu
+68 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@rollup\\rollup-linux-arm64-gnu' ]
+69 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@rollup\rollup-linux-arm-musleabihf
+70 silly reify mark deleted [
+70 silly reify   'D:\\桌面\\exp_wxt\\node_modules\\@rollup\\rollup-linux-arm-musleabihf'
+70 silly reify ]
+71 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@rollup\rollup-linux-arm-gnueabihf
+72 silly reify mark deleted [
+72 silly reify   'D:\\桌面\\exp_wxt\\node_modules\\@rollup\\rollup-linux-arm-gnueabihf'
+72 silly reify ]
+73 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@rollup\rollup-freebsd-x64
+74 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@rollup\\rollup-freebsd-x64' ]
+75 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@rollup\rollup-freebsd-arm64
+76 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@rollup\\rollup-freebsd-arm64' ]
+77 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@rollup\rollup-darwin-x64
+78 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@rollup\\rollup-darwin-x64' ]
+79 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@rollup\rollup-darwin-arm64
+80 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@rollup\\rollup-darwin-arm64' ]
+81 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@rollup\rollup-android-arm64
+82 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@rollup\\rollup-android-arm64' ]
+83 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@rollup\rollup-android-arm-eabi
+84 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@rollup\\rollup-android-arm-eabi' ]
+85 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@esbuild\win32-ia32
+86 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@esbuild\\win32-ia32' ]
+87 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@esbuild\win32-arm64
+88 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@esbuild\\win32-arm64' ]
+89 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@esbuild\sunos-x64
+90 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@esbuild\\sunos-x64' ]
+91 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@esbuild\openbsd-x64
+92 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@esbuild\\openbsd-x64' ]
+93 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@esbuild\openbsd-arm64
+94 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@esbuild\\openbsd-arm64' ]
+95 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@esbuild\netbsd-x64
+96 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@esbuild\\netbsd-x64' ]
+97 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@esbuild\netbsd-arm64
+98 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@esbuild\\netbsd-arm64' ]
+99 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@esbuild\linux-x64
+100 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@esbuild\\linux-x64' ]
+101 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@esbuild\linux-s390x
+102 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@esbuild\\linux-s390x' ]
+103 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@esbuild\linux-riscv64
+104 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@esbuild\\linux-riscv64' ]
+105 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@esbuild\linux-ppc64
+106 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@esbuild\\linux-ppc64' ]
+107 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@esbuild\linux-mips64el
+108 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@esbuild\\linux-mips64el' ]
+109 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@esbuild\linux-loong64
+110 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@esbuild\\linux-loong64' ]
+111 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@esbuild\linux-ia32
+112 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@esbuild\\linux-ia32' ]
+113 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@esbuild\linux-arm64
+114 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@esbuild\\linux-arm64' ]
+115 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@esbuild\linux-arm
+116 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@esbuild\\linux-arm' ]
+117 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@esbuild\freebsd-x64
+118 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@esbuild\\freebsd-x64' ]
+119 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@esbuild\freebsd-arm64
+120 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@esbuild\\freebsd-arm64' ]
+121 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@esbuild\darwin-x64
+122 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@esbuild\\darwin-x64' ]
+123 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@esbuild\darwin-arm64
+124 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@esbuild\\darwin-arm64' ]
+125 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@esbuild\android-x64
+126 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@esbuild\\android-x64' ]
+127 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@esbuild\android-arm64
+128 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@esbuild\\android-arm64' ]
+129 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@esbuild\android-arm
+130 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@esbuild\\android-arm' ]
+131 verbose reify failed optional dependency D:\桌面\exp_wxt\node_modules\@esbuild\aix-ppc64
+132 silly reify mark deleted [ 'D:\\桌面\\exp_wxt\\node_modules\\@esbuild\\aix-ppc64' ]
+133 http cache htmlparser2@https://registry.npmmirror.com/htmlparser2/-/htmlparser2-8.0.2.tgz 0ms (cache hit)
+134 http cache linkedom@https://registry.npmmirror.com/linkedom/-/linkedom-0.15.1.tgz 0ms (cache hit)
+135 http cache entities@https://registry.npmmirror.com/entities/-/entities-6.0.1.tgz 0ms (cache hit)
+136 http cache css-select@https://registry.npmmirror.com/css-select/-/css-select-5.1.0.tgz 0ms (cache hit)
+137 silly tarball no local data for htmlparser2@https://registry.npmmirror.com/htmlparser2/-/htmlparser2-8.0.2.tgz. Extracting by manifest.
+138 http cache htmlparser2@https://registry.npmmirror.com/htmlparser2/-/htmlparser2-10.0.0.tgz 0ms (cache hit)
+139 http cache linkedom@https://registry.npmmirror.com/linkedom/-/linkedom-0.18.11.tgz 0ms (cache hit)
+140 silly tarball no local data for linkedom@https://registry.npmmirror.com/linkedom/-/linkedom-0.15.1.tgz. Extracting by manifest.
+141 silly tarball no local data for css-select@https://registry.npmmirror.com/css-select/-/css-select-5.1.0.tgz. Extracting by manifest.
+142 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk 125ms
+143 silly audit bulk request failed [object Object]
+144 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/audits/quick 12ms
+145 verbose audit error HttpErrorGeneral: 404 Not Found - POST https://registry.npmmirror.com/-/npm/v1/security/audits/quick - [NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet
+145 verbose audit error     at D:\nodejs\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:103:15
+145 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+145 verbose audit error     at async [getReport] (D:\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:336:21)
+145 verbose audit error     at async AuditReport.run (D:\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:106:19) {
+145 verbose audit error   headers: [Object: null prototype] {
+145 verbose audit error     server: [ 'Tengine' ],
+145 verbose audit error     date: [ 'Sat, 28 Jun 2025 12:06:04 GMT' ],
+145 verbose audit error     'content-type': [ 'application/json' ],
+145 verbose audit error     'transfer-encoding': [ 'chunked' ],
+145 verbose audit error     connection: [ 'keep-alive' ],
+145 verbose audit error     'strict-transport-security': [ 'max-age=5184000' ],
+145 verbose audit error     via: [ 'cache10.cn2649[,404666]' ],
+145 verbose audit error     'timing-allow-origin': [ '*' ],
+145 verbose audit error     eagleid: [ '744d4a1e17511123646236663e' ],
+145 verbose audit error     'x-fetch-attempts': [ '1' ]
+145 verbose audit error   },
+145 verbose audit error   statusCode: 404,
+145 verbose audit error   code: 'E404',
+145 verbose audit error   method: 'POST',
+145 verbose audit error   uri: 'https://registry.npmmirror.com/-/npm/v1/security/audits/quick',
+145 verbose audit error   body: {
+145 verbose audit error     error: '[NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet'
+145 verbose audit error   },
+145 verbose audit error   pkgid: undefined
+145 verbose audit error }
+146 silly audit error [object Object]
+147 silly audit report null
+148 http fetch GET 200 https://cdn.npmmirror.com/packages/htmlparser2/8.0.2/htmlparser2-8.0.2.tgz 345ms (cache miss)
+149 http fetch GET 200 https://cdn.npmmirror.com/packages/css-select/5.1.0/css-select-5.1.0.tgz 402ms (cache miss)
+150 http fetch GET 200 https://cdn.npmmirror.com/packages/linkedom/0.15.1/linkedom-0.15.1.tgz 714ms (cache miss)
+151 silly ADD
+152 silly ADD
+153 silly ADD
+154 silly ADD
+155 silly ADD
+156 silly ADD
+157 silly ADD
+158 silly ADD
+159 silly ADD
+160 silly ADD
+161 silly ADD
+162 silly ADD
+163 silly ADD
+164 silly ADD
+165 silly ADD
+166 silly ADD
+167 silly ADD
+168 silly ADD
+169 silly ADD
+170 silly ADD
+171 silly ADD
+172 silly ADD
+173 silly ADD
+174 silly ADD
+175 silly ADD
+176 silly ADD
+177 silly ADD
+178 silly ADD
+179 silly ADD
+180 silly ADD
+181 silly ADD
+182 silly ADD
+183 silly ADD
+184 silly ADD
+185 silly ADD
+186 silly ADD
+187 silly ADD
+188 silly ADD
+189 silly ADD
+190 silly ADD
+191 silly ADD
+192 silly ADD
+193 silly ADD
+194 silly ADD
+195 silly ADD node_modules/wxt/node_modules/entities
+196 silly ADD node_modules/wxt/node_modules/htmlparser2
+197 silly ADD node_modules/wxt/node_modules/linkedom
+198 silly CHANGE node_modules/linkedom
+199 silly CHANGE node_modules/htmlparser2
+200 silly REMOVE node_modules/htmlparser2/node_modules/entities
+201 silly CHANGE node_modules/css-select
+202 verbose cwd D:\桌面\exp_wxt
+203 verbose os Windows_NT 10.0.19045
+204 verbose node v22.14.0
+205 verbose npm  v10.9.2
+206 verbose exit 0
+207 info ok

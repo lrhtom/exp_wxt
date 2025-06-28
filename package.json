@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "css-select": "^5.1.0",
+    "linkedom": "^0.15.1",
+    "wxt": "^0.20.7"
+  }
+}
